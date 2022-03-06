@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <div className='w-full h-[500px] bg-white flex flex-row '>
+      <div className='w-full h-[350px] bg-white flex flex-row '>
         <div className='w-1/2 flex justify-center items-center'>
           <div className='space-y-4'>
             <h1 className='text-4xl font-bold text-gray-700'>

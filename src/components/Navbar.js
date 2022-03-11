@@ -4,15 +4,15 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className='relative bg-white shadow-sm shadow-pink-400 '>
+    <div className='relative'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6'>
-        <div className='flex justify-between items-center  py-3 md:justify-start md:space-x-10'>
+        <div className='flex justify-between items-center  py-8 md:justify-start md:space-x-10'>
           <div className='flex justify-start lg:w-0 lg:flex-1'>
             <a href='flex flex-row'>
               {/* <span className='sr-only'>Workflow</span>
               <img
                 className='h-8 w-auto sm:h-10'
-                src='https://tailwindui.com/img/logos/workflow-mark-pink-600.svg'
+                src='https://tailwindui.com/img/logos/workflow-mark-sky-600.svg'
                 alt=''
               /> */}
               Logo
@@ -274,7 +274,7 @@ function Navbar() {
             <div className='relative'>
               <button
                 type='button'
-                className='text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900'
+                className='text-gray-500 group  rounded-md inline-flex items-center text-base font-medium hover:text-gray-900'
                 aria-expanded='false'>
                 <span>More</span>
 
@@ -463,7 +463,7 @@ function Navbar() {
             </a>
             <a
               href='#'
-              className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-6 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-pink-600 hover:bg-pink-700'>
+              className='ml-8 whitespace-nowrap inline-flex items-center justify-center px-6 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-500 hover:bg-sky-700'>
               {" "}
               Register
             </a>

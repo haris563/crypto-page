@@ -6,7 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 
 function Latest() {
   return (
-    <div className='max-w-6xl mx-auto mt-8'>
+    <div className='max-w-6xl mx-auto mt-8 p-12'>
       <Carousel
         additionalTransfrom={0}
         arrows={false}
